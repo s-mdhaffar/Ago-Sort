@@ -1,6 +1,12 @@
-ALGORITHM algorithm_name
+ALGORITHM Algo-sort
 VAR
-    set_declarations
+    i,j:INTEGER
+    tab : ARRAY_OF INTEGER;
 BEGIN
-    set_instructions
+    FOR i FROM 1 TO tab.length-1 STEP 1  DO
+        j=i;
+        WHILE (condition) DO
+            set_instructions
+        END_WHILE
+    END_FOR
 END
